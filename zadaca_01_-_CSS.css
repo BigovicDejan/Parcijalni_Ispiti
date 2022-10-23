@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(50, 122, 255);
+    }
+
+header{
+    min-height: 10vh;
+    text-align: center;
+}
+
+main{
+    min-height: 70vh;
+}
+
+footer{
+    min-height: 10vh;
+}
+
+li{
+        display: inline-block;
+        padding: 10px;
+    }
+
+.fotografije{
+    border: 0.2cm solid rgb(166, 248, 166);
+}
+
+#djelatnosti{
+    text-decoration:underline solid sandybrown;
+}
+
+[att~=text]{
+    background-color: rgb(196, 154, 236);
+}
+
+input, textarea{
+    background-color: white;
+}
+
+section.klasasekcije{
+    text-align: center;
+}

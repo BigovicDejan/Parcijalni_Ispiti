@@ -7,6 +7,7 @@
         <meta name="author" content="Dejan Bigović" />
         <meta name="description" content="Parcijalni ispit - HTML" />
         <title>HOME PAGE</title>
+        <link rel="stylesheet" href="./zadaca_01_-_CSS.css" />
     </head>
     <body>
         <header id="header">
@@ -25,7 +26,7 @@
             <h1>Turistička agencija "Avanturist"</h1>
             <section>
                 <h2 id="o_nama">O NAMA</h2>
-                <p>
+                <p att="atribut za text u ovom odlomku">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Dolor consectetur eaque accusamus numquam libero eius qui
                     omnis hic! Iure veritatis facilis necessitatibus est
@@ -41,11 +42,16 @@
                     obcaecati?
                 </p>
                 <figure style="display: inline-block">
-                    <img src="./multimedia/images/ljudi/grupe-ljudi/team.jpg" />
-                    <figcaption>Pokušaj dostizanja Ballmer Peak-a</figcaption>
+                    <img
+                        class="fotografije"
+                        src="./multimedia/images/ljudi/grupe-ljudi/team.jpg"
+                    />
+                    <figcaption class="fotografije">
+                        Pokušaj dostizanja Ballmer Peak-a
+                    </figcaption>
                 </figure>
             </section>
-            <section>
+            <section class="klasasekcije">
                 <br />
                 <br />
                 <h2 id="djelatnosti">Naše djelatnosti</h2>
@@ -65,7 +71,10 @@
                     obcaecati?
                 </p>
                 <figure style="display: inline-block">
-                    <img src="./multimedia/images/stvari/adventure.jpg" />
+                    <img
+                        class="fotografije"
+                        src="./multimedia/images/stvari/adventure.jpg"
+                    />
                     <figcaption>Fejkerska motivacijska slika</figcaption>
                 </figure>
             </section>
@@ -115,6 +124,7 @@
         <br />
         <br />
         <hr />
+        <br />
         <footer>
             <p><i> Avanturist © 2022. </i></p>
             <a href="mailto:mirko.zlikovski@wb.com"
